@@ -1,0 +1,58 @@
+html {
+	background-color: #D6C588;
+}
+h4{
+	color: blueviolet;
+	text-align: center;
+	text-decoration: underline;
+}
+#haut{
+	bottom: 0;
+	height: 10mm;
+	position: fixed;
+	right: 0;
+	width: 10mm;
+}
+.button{
+	float: left;
+	height: 40px;
+	position: relative;
+	width: 120px;
+}
+
+aside{
+background-color: #A78886;
+ height: 100%;
+  left: 0;
+ overflow-x: hidden;
+   position: fixed;
+ padding-left: 35px;
+  padding-top: 10px;
+  top: 0;
+  width: 200px;
+  z-index: 1;
+	}
+	section{
+	  margin-left: 235px;
+  padding-left: 20px;
+padding-right: 20px;}
+  footer{ margin-left: 235px;
+  padding-bottom: 50px;
+padding-left: 20px;
+padding-right: 20px;
+}
+body{font-size: 20px;}
+	header{ margin-left: 235px;
+  padding-left: 20px;
+padding-right: 20px;}
+  button{background-color: #93ABD5;}
+  img {
+	float: left;
+	height: 40px;
+	position: relative;
+	width: 120px;
+
+}
+input{border: 1px solid #1B13A5;
+  	background-color: #93ABD5;
+  	border-radius: 10%;}

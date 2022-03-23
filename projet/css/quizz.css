@@ -1,0 +1,54 @@
+html {
+	background-color: #D6C588;
+}
+#haut{
+	bottom: 0;
+	height: 10mm;
+	position: fixed;
+	right: 0;
+	width: 10mm;
+}
+.button{
+	float: left;
+	height: 10%;
+	position: relative;
+	width: 10%;
+}
+
+input:checked +label{
+font-size: 20px;
+font-weight: bold;
+text-decoration: underline;
+}
+	img {
+	float: left;
+	height: 40px;
+	position: relative;
+	width: 120px;
+
+}
+.button{
+	float: left;
+	height: 40px;
+	position: relative;
+	width: 120px;
+}
+#part1{
+background-color: #A78886;
+left: 0;
+   height: 100%;
+  overflow-x: hidden;
+  position: fixed;
+ padding-left: 35px;
+  padding-top: 10px;
+ top: 0;
+   width: 200px;
+   z-index: 1;
+	}
+	#part2{
+	 margin-left: 235px;
+  padding-left: 20px;
+padding-right: 20px;}
+#part1 input{background-color: #93ABD5;border: 1px solid #1B13A5;
+  color: #000000;}
+  	input{background-color: #ff0000;color: #ffffff;}

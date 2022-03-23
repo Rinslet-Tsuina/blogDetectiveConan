@@ -1,0 +1,28 @@
+html {
+	background-color: #D6C588;
+}
+
+#im{
+	position: absolute;
+}
+
+img {
+	float: left;
+	height: 50px;
+	position: relative;
+	width: 150px;
+
+}
+#haut{
+	bottom: 0;
+	height: 10mm;
+	position: fixed;
+	right: 0;
+	width: 10mm;
+}
+.button{
+	float: left;
+	height: 40px;
+	position: relative;
+	width: 120px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+	<head>
+	   <title>Détective conan</title>
+		<meta name="generator" content="Bluefish 2.2.10" />
+		<meta name="author" content="orlan" />
+		<meta name="date" content="2019-12-17T06:56:54+0100" />	
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<link href="../css/form.css" type="text/css" rel="stylesheet"/>
+		
+	</head>
+	<body><aside><nav>
+			<a href="info.html"><img src="../image/info.png" alt=""/></a>
+	<input type="button" value="Résumé" name="summary" onclick="changelien(0)" />
+	<input type="button" value="Quelques nombres" name="nb" onclick="changelien(1)" />
+	<input type="button" value="Information sur l'auteur" name="auteur" onclick="changelien(2)" />
+<a href="personnages.html"><img src="../image/perso.png" alt=""/></a>
+	<input type="button" value="Shinichi Kudo" name="kudo" onclick="changelien(3)" />
+	<input type="button" value="Ran Môri" name="ran" onclick="changelien(4)" />
+	<input type="button" value="Kogoro Môri" name="kogoro" onclick="changelien(5)" />
+	<input type="button" value="Professeur Agasa" name="agasa" onclick="changelien(6)" />
+	<input type="button" value="Ai Haibara" name="ai" onclick="changelien(7)" />
+	<input type="button" value="Kaito Kid" name="kid" onclick="changelien(8)" />
+	<input type="button" value="Heiji Hattori" name="hattori" onclick="changelien(9)" />
+	<input type="button" value="Les Détectives Boys" name="trio" onclick="changelien(10)" />
+<a href="hommes_en_noir.html"><img src="../image/organisation.png" alt=""/></a><br />
+	<input type="button" value="Le Boss" name="boss" onclick="changelien(11)" />
+	<input type="button" value="Vermouth" name="ver" onclick="changelien(12)" />
+	<input type="button" value="Rum" name="rum" onclick="changelien(13)" />
+	<input type="button" value="Bourbon" name="bourbon" onclick="changelien(14)" />
+	<input type="button" value="Shuichi Akai" name="akai" onclick="changelien(15)" />
+<a href="media.html"><img src="../image/media.png" alt=""/></a><br />
+<a href="episode.html"><img src="../image/saison.png" alt=""/></a><br />
+<a href="formulaire.html"><img src="../image/form.png" alt=""></a><br />
+<a href="quizz.html"><img src="../image/quizz.png" alt=""/></a><br />
+		</nav></aside>
+		<section><h1 id="enhaut">Formulaire</h1>
+		<form method="post" id="form1" action="mailto:Orlane_Tisserand@etu-u.bourgogne.fr" onsubmit="submit2()">
+			<label for="name">Votre nom:</label><input type="text" name="nom" id="name"  />
+			<label for="prenom">Votre prénom:</label><input type="text" name="prenom" id="prenom"  />
+			<label for="mdp">Entrez un mot de passe:</label><input type="password" name="mdp" id="mdp">
+			<br>
+			<select name="pays" id="py">
+				<option id="option1"  value="Angleterre"> Angleterre</option>
+				<option id="option2" value="Allemagne">Allemagne</option>
+				<option id="option3" value="Australie"> Australie</option>
+				<option id="option4" value="France" >France</option>
+				<option id="option5" value="Italie"> Italie</option>
+				<option id="option6" value="Japon">Japon</option>
+				<option id="option7" value="USA"> USA</option>
+				<option id="option8" value="Autre"> Autre</option>
+				<option id="option0" value="choix" selected="selected">votre pays</option>
+			</select>
+			
+			<label for="tel">Votre numéro de téléphone:</label><input type="tel" name="tel" id="tel" pattern="0[1-68]([-. ]?[0-9]{2}){4}" />
+			<label for="mail">Votre mail:</label><input type="email" name="mail" id="mail"  /><br>
+			<label for="nb">Votre âge:</label><input type="number" name="nb" id="nb"  />
+			<label for="birth">Entrez votre date d'anniversaire:</label><input type="date" name="birth" id="birth">
+			<br>
+			<label for="color">Choisissez votre couleur préféré:</label><input type="color" name="color" id="color" /><br>
+			
+			
+			<fieldset><legend>Sélectionner vos personnages préférés:</legend>
+			<input type="checkbox" id="kudo" name="perso"><label for="kudo">Shinichi Kudo</label>
+			<input type="checkbox" name="perso" id="ran"><label for="ran"> Ran Mouri</label>
+			<input type="checkbox" name="perso" id="mouri"><label for="mouri">Kogoro Mouri</label>
+			<input type="checkbox" name="perso" id="ai"><label for="ai">Ai Haibara</label>
+			<input type="checkbox" name="perso" id="kid"><label for="kid">Kaito Kid</label>
+			<input type="checkbox" name="perso" id="heiji"><label for="heiji">Heiji Hattori</label>
+			<input type="checkbox" name="perso" id="bb"><label for="bb">Bourbon</label>
+			<input type="checkbox" name="perso" id="verm"><label for="verm">Vermouth</label>
+			<input type="checkbox" name="perso" id="rum"><label for="rum">Rum</label>
+			</fieldset>
+			<fieldset ><legend >Notez le site</legend><input type="radio" id="e1" name="etoile"><label for="e1">*</label>
+			<input type="radio" id="e2" name="etoile"><label for="e2">**</label>
+			<input type="radio" id="e3" name="etoile"><label for="e3">***</label>
+			<input type="radio" id="e4" name="etoile"><label for="e4">****</label>
+			<input type="radio" id="e5" name="etoile"><label for="e5">*****</label>
+			</fieldset>
+			<label for="com">Commentaire</label><textarea id="com" ></textarea><br>
+			<input type="submit" class="autre" /><input type="reset" class="autre" /><br><br>
+		</form></section><footer>
+		<a href="episode.html"><img src="../image/retour.png" width="1181" height="709" alt="" class="button"/></a>
+		<a href="index.html"><img src="../image/Sommaire.png" width="1181" height="709" alt="" class="button"/></a>
+		<a href="quizz.html"><img src="../image/suivant.png" width="1181" height="709" alt="" class="button"/></a>
+		<a href="#enhaut">
+			<img src="../image/fleche_haut.jpg" width="800" height="800" alt="" id="haut" title="Retour en haut de la page" />
+		</a>
+		<script type="text/javascript" src="../javascript/submit.js" ></script></footer>
+	</body>
+</html>

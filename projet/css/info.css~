@@ -1,0 +1,53 @@
+html {
+	background-color: #D6C588;
+}
+h4{
+	color: blueviolet;
+	text-align: center;
+	text-decoration: underline;
+}
+	img {
+	float: left;
+	height: 40px;
+	position: relative;
+	width: 120px;
+
+}
+.button{
+	float: left;
+	height: 40px;
+	position: relative;
+	width: 120px;
+}
+p {
+	text-align: justify;
+}
+#haut{
+	bottom: 0;
+	height: 10mm;
+	position: fixed;
+	right: 0;
+	width: 10mm;
+}
+#part1{
+background-color: #A78886;
+left: 0;
+   height: 100%;
+  overflow-x: hidden;
+  position: fixed;
+ padding-left: 35px;
+  padding-top: 10px;
+ top: 0;
+   width: 200px;
+   z-index: 1;
+	}
+	#part2{
+	 margin-left: 235px;
+  padding-left: 20px;
+padding-right: 20px;}
+#tome{height: 150px;
+width: 100px;}
+#oav{color: #FF0000;}
+#oav:visited{color: #95503C;}
+input{background-color: #93ABD5;border: 1px solid #1B13A5;
+}

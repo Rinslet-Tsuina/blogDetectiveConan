@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+	   <title>Détective conan</title>
+		<meta name="generator" content="Bluefish 2.2.10" />
+		<meta name="author" content="orlan" />
+		<meta name="date" content="2019-11-10T18:12:24+0100" />	
+		<link href="../css/verif.css" type="text/css" rel="stylesheet"/>
+		<script type="text/javascript" src="../javascript/verif.js" ></script>
+	</head>
+	<body>
+		<h1 id="enhaut">Vérification</h1>
+		<p>
+		<div id="r1a"></div>
+		<div id="r1b"></div>
+		<div id="r1c"></div>
+		</p>
+		<p>
+		<div id="r2a"></div>
+		<div id="r2b"></div>
+		<div id="r2c"></div>
+		</p>
+		<a href="quizz.html"><img src="../image/retour.png" width="1181" height="709" alt="" class="button"/></a>
+		<a href="index.html"><img src="../image/Sommaire.png" width="1181" height="709" alt="" class="button"/></a>
+		<a href="soluce.html"><img src="../image/suivant.png" width="1181" height="709" alt="" class="button"/></a>
+		<a href="#enhaut">
+			<img src="../image/fleche_haut.jpg" width="800" height="800" alt="" id="haut" title="Retour en haut de la page" />
+		</a>
+	</body>
+</html>

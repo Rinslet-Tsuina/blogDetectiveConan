@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Les personnages de Détective Conan</title>
+	<meta name="generator" content="Bluefish 2.2.10" />
+	<meta name="author" content="orlan" />
+	<meta name="date" content="2019-12-16T19:16:11+0100" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="../css/perso.css">
+</head>
+<body>
+	<aside><nav>
+		<a href="info.html"><img src="../image/info.png" alt=""/></a>
+	<input type="button" value="Résumé" name="summary" onclick="changelien(0)" />
+	<input type="button" value="Quelques nombres" name="nb" onclick="changelien(1)" />
+	<input type="button" value="Information sur l'auteur" name="auteur" onclick="changelien(2)" />
+<a href="personnages.html"><img src="../image/perso.png" alt=""/></a>
+	<input type="button" value="Shinichi Kudo" name="kudo" onclick="changelien(3)" />
+	<input type="button" value="Ran Môri" name="ran" onclick="changelien(4)" />
+	<input type="button" value="Kogoro Môri" name="kogoro" onclick="changelien(5)" />
+	<input type="button" value="Professeur Agasa" name="agasa" onclick="changelien(6)" />
+	<input type="button" value="Ai Haibara" name="ai" onclick="changelien(7)" />
+	<input type="button" value="Kaito Kid" name="kid" onclick="changelien(8)" />
+	<input type="button" value="Heiji Hattori" name="hattori" onclick="changelien(9)" />
+	<input type="button" value="Les Détectives Boys" name="trio" onclick="changelien(10)" />
+<a href="hommes_en_noir.html"><img src="../image/organisation.png" alt=""/></a><br />
+	<input type="button" value="Le Boss" name="boss" onclick="changelien(11)" />
+	<input type="button" value="Vermouth" name="ver" onclick="changelien(12)" />
+	<input type="button" value="Rum" name="rum" onclick="changelien(13)" />
+	<input type="button" value="Bourbon" name="bourbon" onclick="changelien(14)" />
+	<input type="button" value="Shuichi Akai" name="akai" onclick="changelien(15)" />
+<a href="media.html"><img src="../image/media.png" alt=""/></a><br />
+<a href="episode.html"><img src="../image/saison.png" alt=""/></a><br />
+<a href="formulaire.html"><img src="../image/form.png" alt=""></a><br />
+<a href="quizz.html"><img src="../image/quizz.png" alt=""/></a><br />
+	</nav></aside>
+	
+	<section><h2 id="enhaut">Personnages de Détective Conan</h2>
+		<article>
+			<h4 id="kudo">Shinichi Kûdo</h4>
+			<img src="../image/Shinichi.jpg" width="1280" height="738" alt="" />
+				<form method="post" enctype="text/plain" action="mailto:Orlane_Tisserand@etu.u-bourgogne.fr">
+					<input type="button" onclick="spoil(0)" value="spoil" name="kudo1" class="spoil">
+					<input type="button" onclick="resetspoil(0)" value="Cacher le spoil" name="kudo2" class="spoil">
+					<p>Jeune détective lycéen de 17 ans. Il résout fréquemment des enquêtes avec la police. 
+			Il est en première au lycée Teitan de Beika.
+			 C’est un grand fan de Sherlock Holmes qui l'a influencé à devenir détective et à pratiquer le football.
+			  Il vit à Beikacho, un quartier fictif de Tokyo. Il est né le 4 mai. 
+			  Son père est écrivain de romans policiers. Sa mère est une actrice.Il est connu comme le grand détective de l'Est.
+			</p>
+					<div id="s1"> 
+						Après avoir avalé l'apotoxine 4869, il retrécie et prends le nom d'Edogawa Conan.
+						Il est passioné d'enquêtes et son modèle est Sherlock Holmes.
+					</div>
+				</form>
+		</article>
+		<article>
+			<h4 id="ran">Ran Môri</h4>
+			<img src="../image/ran.png" alt="" id="rm" />
+			<p>Amie d’enfance de Shinichi, elle va au même lycée que lui. 
+			C’est une championne de karaté, elle est 3 ème dan. <br />
+			Ses parents sont séparés.
+			 Elle est née le 10 octobre.
+			</p>
+		</article>
+		<article>
+			<h4 id="mori">Kogoro Môri</h4>
+			<img src="../image/kogoro.jpg" width="180" height="220" alt="" />			
+			<p>C'est le père de Ran Mouri. Il est divorcé. C'est un ancien policier devenu détective privée mais il n'est pas très doué. C'est un grand fan de la chanteuse Yoko Okino. Il est surnommé "Kogoro l'endormi" car Conan utilise des fléchettes soporifiques pour résoudre les enquêtes. C'est aussi un coureur de jupon, un gros fumeur et il joue souvent à des jeux d'argent. 
+			</p>
+		</article>
+		<article>
+			<h4 id="agasa">Hiroshi Agasa/Professeur Agasa</h4>
+			<img src="../image/agasa.jpg" alt="">
+			<p>
+				C'est un inventeur et le voisin des Kudo. C'est la première personne à savoir la véritable identité de Conan. Un peu plus tard, il recueille Ai Haibara qui comme Conan a pris l'apotoxine 4869. Les détectives Boys viennent souvent le voir et il leur pose des énigmes.
+			</p>
+		</article>
+		<article>
+			<h4 id="ai">Ai Haibara</h4>
+			<img src="../image/haibara.png" alt="">
+			<form method="post" enctype="text/plain" action="mailto:Orlane_Tisserand@etu.u-bourgogne.fr">
+				<input type="button" onclick="spoil(1)"class="spoil"value="spoil" >
+				<input type="button" onclick="resetspoil(1)"class="spoil">
+				<p>C'est une camarade de classe de Conan présente dès l'épisode 129 qui lui était consacré. Elle rejoint les Détectives Boys. </p>
+				<div id="s2"> 
+						Son vraie nom est Shiho Miyano. Elle faisait partie de l'organisation des hommes en noirs sous le nom de Sherry. Elle a développé l'apotoxine 4869. En refusant de poursuivre ses recherches suite à la mort de sa soeur(épisode 128), elle est enfermmée et prend l'apotoxine. Elle s'enfuit et est recueillie par le professeur Agasa. Plus tard elle met au point un remède temporaire au rétrécissement provoqué par l'apotoxine 4869.
+				</div>
+			</form>
+		</article>
+		<article><h4 id="kid">Kaito Kid</h4>
+			<img src="../image/Kaitou_Kid.jpg" width="75" height="75" alt="" />
+			
+			<form method="post" enctype="text/plain" action="mailto:Orlane_Tisserand@etu.u-bourgogne.fr">
+				<input type="button" onclick="spoil(2)"class="spoil"value="spoil">
+				<input type="button" onclick="resetspoil(2)"class="spoil">
+				<p>D’abord il s’agit de Toichi Kuroba puis son fils, Kaito Kuroba devient Kaito Kid 10 ans après la disparition de son père.
+			Il est à la recherche d’une pierre précieuse nommée pandora qui semble accorder l'immortalité dans l'anime magic Kaito ainsi que dans Détective conan précisé dans l'épisode 887-888.
+			Kid est la lecture de 1412 fait par un jeune écrivain qu’on peut supposé être Yusaku Kudo, le père de Shinichi Kudo.
+			Shinichi Kudo et Ran Mouri ont rencontré le premier Kaito Kid lorsqu’ils étaient à l’école élémentaire.
+			Shinichi Kudo a rencontré Kaito Kid (Kaito Kuroba) une seule fois avant de devenir Conan dans l'épisode 6 de Magic Kaito 1412).
+			Shinichi Kudo et Kaito Kuroba se ressemblent beaucoup au point d’être confondu par Ran.(les films 3,8,10,14,19,23 et épisode 76)
+			</p>
+				<div id="s3"> 
+						<h3>Anecdote:</h3>
+						Kaito Kuroba déteste le poisson plus précisément il en a une peur bleue.
+						Kaito Kid a un complice nommé Jii qui l'aide à obtenir des gadgets.
+						Ses gadgets sont fabriqués par un professeur possédant une coccinelle jaune.
+						On peut supposer que ce professeur est Agasa.
+				</div>
+			</form>
+		</article>
+		<article>
+			<h4 id="hattori">Heiji Hattori</h4>
+			<img src="../image/heiji.jpg" alt="">
+			<p>C'est un détective lycéen originaire du Kansai. Il est le fils du commissaire en chef du département de police d'Osaka. Il est le deuxième personnage à savoir la véritable identité de Conan. Il est connu comme le grand détective de l'Ouest. Il est très doué en Kendo. Il est en compétition avec Sinichi Kudo pour savoir qui a résolu le plus d'énigmes.</p>
+		</article>
+		<article>
+			<h4 id="trio">Les détectives Boys</h4>
+			<img src="../image/Trio.jpg" alt="">
+			<p>Les détectives Boys sont composés de Genta Kojima, Mitsuhiko Tsuburaya, Ayumi Yoshida, Conan Edogawa et Ai Haibara. Ce sont tous des élèves de primaire.</p>
+		</article>
+	</section>
+	<br>
+	<footer>
+		<a href="info.html">
+			<img src="../image/retour.png" width="1181" height="709" alt="" class="button"/></a>
+		<a href="index.html">
+			<img src="../image/Sommaire.png" width="1181" height="709" alt="" class="button"/></a>
+		<a href="hommes_en_noir.html">
+			<img src="../image/suivant.png" width="1181" height="709" alt="" class="button"/></a>
+		<a href="#enhaut">
+			<img src="../image/fleche_haut.jpg" width="800" height="800" alt="" id="haut" title="Retour en haut de la page" />
+		</a>
+	</footer><br><br>
+	<script type="text/javascript" src="../javascript/spoil.js"></script><script type="text/javascript" src="../javascript/lien.js"></script>
+</body>
+</html>

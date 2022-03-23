@@ -1,0 +1,8 @@
+function spoil() {
+  document.getElementById("kudop").style.display = "block"; 
+   document.getElementById("kidp").style.display = "block";
+}
+function resetspoil() {
+	document.getElementById("kudop").style.display = "none";
+		document.getElementById("kidp").style.display = "none";
+}

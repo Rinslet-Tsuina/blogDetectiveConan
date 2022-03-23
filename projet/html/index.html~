@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+	   <title>Détective conan</title>
+		<meta name="generator" content="Bluefish 2.2.10" />
+		<meta name="author" content="orlan" />
+		<meta name="date" content="2019-12-16T19:34:27+0100" />	
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<link href="../css/sommaire.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body onload="dateheure()">
+		<h1 id="enhaut">Sommaire</h1>
+		<p id="part1"><a href="info.html"><img src="../image/info.png" alt=""/></a><br />
+	<input type="button" value="Résumé" name="summary" onclick="changelien(0)" />
+	<input type="button" value="Quelques nombres" name="nb" onclick="changelien(1)" />
+	<input type="button" value="Information sur l'auteur" name="auteur" onclick="changelien(2)" /><br /><br />
+<a href="personnages.html"><img src="../image/perso.png" alt=""/></a><br />
+	<input type="button" value="Shinichi Kudo" name="kudo" onclick="changelien(3)" />
+	<input type="button" value="Ran Môri" name="ran" onclick="changelien(4)" />
+	<input type="button" value="Kogoro Môri" name="kogoro" onclick="changelien(5)" />
+	<input type="button" value="Professeur Agasa" name="agasa" onclick="changelien(6)" />
+	<input type="button" value="Ai Haibara" name="ai" onclick="changelien(7)" />
+	<input type="button" value="Kaito Kid" name="kid" onclick="changelien(8)" />
+	<input type="button" value="Heiji Hattori" name="hattori" onclick="changelien(9)" />
+	<input type="button" value="Les Détectives Boys" name="trio" onclick="changelien(10)" /><br /><br /><br />
+<a href="hommes_en_noir.html"><img src="../image/organisation.png" alt=""/></a><br />
+	<input type="button" value="Le Boss" name="boss" onclick="changelien(11)" />
+	<input type="button" value="Vermouth" name="ver" onclick="changelien(12)" />
+	<input type="button" value="Rum" name="rum" onclick="changelien(13)" />
+	<input type="button" value="Bourbon" name="bourbon" onclick="changelien(14)" />
+	<input type="button" value="Shuichi Akai" name="akai" onclick="changelien(15)" /><br /><br />
+<a href="media.html"><img src="../image/media.png" alt=""/></a><br /><br /><br />
+<a href="episode.html"><img src="../image/saison.png" alt=""/></a><br /><br /><br />
+<a href="formulaire.html"><img src="../image/form.png" alt=""/></a><br /><br /><br />
+<a href="quizz.html"><img src="../image/quizz.png" id="im" alt=""/></a><br /><br /><br /><br /></p>
+			<p id="part2">Détective Conan est un manga très populaire au Japon depuis sa création en 1995.<br /></p>
+			<p id="date"></p>
+			<div><a href="#enhaut">
+			<img src="../image/fleche_haut.jpg" width="800" height="800" alt="" id="haut" title="Retour en haut de la page" /></a></div>
+		<script type="text/javascript" src="../javascript/lien.js"></script>
+		<script type="text/javascript" src="../javascript/date.js"></script>
+	</body>
+</html>
